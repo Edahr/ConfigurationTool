@@ -1,0 +1,29 @@
+{
+  "TenantSettings": {
+    "DefaultTenant": "TenantA",
+    "Tenants": [
+      {
+        "Name": "TenantA",
+        "ConnectionString": "Server=serverA;Database=dbA;User Id=userA;Password=passA;",
+        "Features": {
+          "EnableLogging": true,
+          "MaxUsers": 100,
+          "AllowedRegions": [ "US", "EU" ]
+        }
+      },
+      {
+        "Name": "TenantB",
+        "ConnectionString": "Server=serverB;Database=dbB;User Id=userB;Password=passB;",
+        "Features": {
+          "EnableLogging": false,
+          "MaxUsers": 50,
+          "AllowedRegions": [ "APAC", "EU" ]
+        }
+      }
+    ],
+    "GlobalSettings": {
+      "SupportEmail": "support@example.com",
+      "ApiRateLimit": 1000
+    }
+  }
+}

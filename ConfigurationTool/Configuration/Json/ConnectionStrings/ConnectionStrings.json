@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnectionString": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;",
+    "AuditConnectionString": "Server=your_Audit_server;Database=your_Audit_db;User Id=your_Audit_user;Password=your_Audit_password;"
+  }
+}

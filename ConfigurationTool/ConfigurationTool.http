@@ -1,0 +1,6 @@
+@ConfigurationTool_HostAddress = http://localhost:5062
+
+GET {{ConfigurationTool_HostAddress}}/Configuration/
+Accept: application/json
+
+###
