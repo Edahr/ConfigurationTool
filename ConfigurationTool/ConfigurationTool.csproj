@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConfigurationTool.Configuration\ConfigurationTool.Common.csproj" />
+    <ProjectReference Include="..\ConfigurationTool.Common\ConfigurationTool.Common.csproj" />
   </ItemGroup>
 
 </Project>
